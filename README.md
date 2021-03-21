@@ -4,6 +4,11 @@ This is my implementation of a Naive Bayes text classifier that I made for a nat
 
 ## To run the classifier
 
+Clone the repo
+```buildoutcfg
+git clone https://github.com/Minhtyyufa/naive-bayes-text-classifier.git
+```
+
 Install dependencies
 ```buildoutcfg
 pip install -r requirements.txt
