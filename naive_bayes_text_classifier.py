@@ -206,6 +206,15 @@ def sweep_params():
         "lower-case": [True]
     }
 
+    # params = {
+    #     "tokenizer": ["nltk", "only-letters"],
+    #     "stopwords": [True, False],
+    #     "stemmer": [True, False],
+    #     "lemmatizer": [True, False],
+    #     "smoothing": [.1 ,.25, .5, 1, 2, 5, 10],
+    #     "lower-case": [True, False]
+    # }
+
     keys, values = zip(*params.items())
     param_permutations = [dict(zip(keys, v)) for v in itertools.product(*values)]
 
